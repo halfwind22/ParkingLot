@@ -1,5 +1,9 @@
 package org.example.entities;
 
+import java.util.List;
+
 public interface Vehicle {
-    void parkVehicle();
+    void parkVehicle(List<Integer> parkingSlot);
+
+    public int getWheels();
 }
